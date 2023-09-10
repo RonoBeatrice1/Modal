@@ -90,6 +90,7 @@ button {
 }
 
 .overlay {
+  /* An overlay is typically a semi-transparent background that appears behind the modal to dim the content behind it. */
   position: fixed;
   top: 0;
   bottom: 0;
