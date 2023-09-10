@@ -84,7 +84,8 @@ button {
 .btn-close {
   transform: translate(10px, -20px);
   padding: 0.5rem 0.7rem;
-  color: #eee;
+  color: grey;
+  font-weight: 900;
   border-radius: 50%;
 }
 
