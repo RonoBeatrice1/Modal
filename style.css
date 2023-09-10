@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Roboto Condensed", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +13,7 @@ body {
   position: relative;
   min-height: 100vh;
   color: #222;
-  background: #b3e6f4;
+  background: darkslateblue;
 }
 
 .modal {
@@ -37,6 +38,10 @@ body {
   justify-content: center;
 }
 
+.modal .flex img {
+  border-radius: 50%;
+}
+
 .modal input {
   padding: 0.7rem 1rem;
   border: 1px solid #ddd;
@@ -48,6 +53,10 @@ body {
   color: #777;
   font-size: 0.9rem;
   margin: 0.4rem 0 0.2rem;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 
 button {
